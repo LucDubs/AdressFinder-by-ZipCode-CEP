@@ -16,11 +16,20 @@
             justify-content: center;
             align-content: center;
         }
+        #title{
+            font-family:'Times New Roman', Times, serif ;
+            background-color: rgb(54, 44, 44);
+            width: 100%;
+            text-align: center;
+            transform: translateY(-200%);
+            box-shadow: 2px 8px 11px rgba(0, 0, 0, 2);
+        }
         #app{
             background-color: rgb(54, 44, 44);
             border-radius: 0.4rem;
             padding: 1.3rem 1rem;         
             box-shadow: 2px 8px 11px rgba(0, 0, 0, 2);
+            transform: translateY(-65%)
         }
         .form{
             display: grid;
@@ -32,7 +41,7 @@
 
         }
         .form input{
-            background: linear-gradient(to right, #00F, #00f) ;
+            background: linear-gradient(to right, #4091dd, #4091dd) ;
             border: none;
             font-size: 1.3rem;
             font-weight: 100;
@@ -51,7 +60,7 @@
             border: none;
             width: max-content;
             font-size: 1.3rem;
-            background: linear-gradient(to right, #4091dd, #28b4d2);
+            background: linear-gradient(to right, #4091dd, #4091dd);
             font-weight: 100px;
             outline: none;
             cursor:pointer;
@@ -77,6 +86,9 @@
     </style>
 </head>
 <body>
+    <div id="title">
+        <h1>Localizador de Endereços</h1>
+    </div>
     <div id="app">
         <form class="form">
             <input type="text" placeholder=" Digite o CEP"/>
@@ -86,6 +98,6 @@
     </div>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="./app.js"> </script>
+    <script src="./form.js"> </script>
 </body>
 </html>
