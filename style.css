@@ -16,6 +16,8 @@ body{
     text-align: center;
     transform: translateY(-187%);
     box-shadow: 2px 8px 11px rgba(0, 0, 0, 2);
+    border-radius: 0.4rem;
+    text-decoration: underline;
 }
 #app{
     background-color: rgb(54, 44, 45);
